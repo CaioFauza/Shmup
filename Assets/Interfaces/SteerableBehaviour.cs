@@ -6,8 +6,6 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public abstract class SteerableBehaviour : MonoBehaviour
 {
-    //public float verticalForce;
-    //public float horizontalForce;
     public ThrustData td;
 
     private Rigidbody2D rb;
